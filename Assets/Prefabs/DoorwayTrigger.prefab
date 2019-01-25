@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1359874612220884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.71, y: -4.94, z: -0.17291752}
+  m_LocalPosition: {x: -0.66, y: -16.69, z: -0.17291752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -53,7 +53,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.713954, y: 0.016043663}
+  m_Offset: {x: 0.64534545, y: 0.14182568}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -64,7 +64,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.427908, y: 0.9679127}
+  m_Size: {x: 2.473647, y: 0.71634865}
   m_EdgeRadius: 0
 --- !u!114 &114890372388866922
 MonoBehaviour:
@@ -78,5 +78,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: {x: 19.2, y: 10.8}
-  doorType: 1
-  playerDisplacement: 3.2
+  doorType: 0
+  playerDisplacement: 3
+  smoothTime: 0.3
