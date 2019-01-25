@@ -24,7 +24,7 @@ public class RoomTransition : MonoBehaviour
   {
     doorTrigger = gameObject.GetComponent<BoxCollider2D>();
     doorTrigger.isTrigger = true;
-    cameraTransform = FindObjectOfType<Camera>().transform;
+    cameraTransform = Camera.main.transform;
     player = GameObject.FindGameObjectWithTag("Player");
 	}
 
@@ -68,7 +68,7 @@ public class RoomTransition : MonoBehaviour
       default:
         break;
     }
-    camera.transform.position = newPos;
+    cameraTransform.position = newPos;
     player.transform.position = newPlayerPos;
   }
 }
