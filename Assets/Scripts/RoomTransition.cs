@@ -42,32 +42,38 @@ public class RoomTransition : MonoBehaviour
     float camX = cameraTransform.position.x;
     float camY = cameraTransform.position.y;
     float camZ = cameraTransform.position.z;
+    float playerX = player.transform.position.x;
+    float playerY = player.transform.position.y;
+    float playerZ = player.transform.position.z;
 
+    /* depending on which way the door is facing, 
+     * we set target positions for the move*/
     switch (doorType)
     {
       case DoorType.up:
         newPos = new Vector3(camX, camY + gridSize.y, camZ);
-        newPlayerPos = new Vector3(player.transform.position.x, player.transform.position.y + playerDisplacement, player.transform.position.z);
+        newPlayerPos = new Vector3(playerX, playerY + playerDisplacement, playerZ);
         break;
 
       case DoorType.down:
         newPos = new Vector3(camX, camY - gridSize.y, camZ);
-        newPlayerPos = new Vector3(player.transform.position.x, player.transform.position.y - playerDisplacement, player.transform.position.z);
+        newPlayerPos = new Vector3(playerX, playerY - playerDisplacement, playerZ);
 
         break;
       case DoorType.left:
         newPos = new Vector3(camX - gridSize.x, camY, camZ);
-        newPlayerPos = new Vector3(player.transform.position.x - playerDisplacement, player.transform.position.y, player.transform.position.z);
+        newPlayerPos = new Vector3(playerX - playerDisplacement, playerY, playerZ);
 
         break;
       case DoorType.right:
         newPos = new Vector3(camX + gridSize.x, camY, camZ);
-        newPlayerPos = new Vector3(player.transform.position.x + playerDisplacement, player.transform.position.y, player.transform.position.z);
+        newPlayerPos = new Vector3(playerX + playerDisplacement, playerY, playerZ);
         break;
 
       default:
         break;
     }
+    //Moves the camera and player to new room positions
     cameraTransform.position = newPos;
     player.transform.position = newPlayerPos;
   }
