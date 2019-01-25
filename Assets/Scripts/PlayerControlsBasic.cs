@@ -20,6 +20,7 @@ public class PlayerControlsBasic : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
   {
+    Debug.Log(Input.GetAxis("Horizontal"));
     GetPlayerDirectionInput();
 	}
 
@@ -32,9 +33,9 @@ public class PlayerControlsBasic : MonoBehaviour
   //gets player input and assigns a direction and magnitude to direction variable
   private void GetPlayerDirectionInput()
   {
-    direction.x = Input.GetAxis("Horizontal");
+    direction.x = Input.GetAxisRaw("Horizontal");
     direction.x *= playerSpeed;
-    direction.y = Input.GetAxis("Vertical");
+    direction.y = Input.GetAxisRaw("Vertical");
     direction.y *= playerSpeed;
   }
 }

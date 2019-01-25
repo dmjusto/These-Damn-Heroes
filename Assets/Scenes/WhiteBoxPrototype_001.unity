@@ -149,7 +149,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: playerDisplacement
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.0149354935
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.6168194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
@@ -191,7 +206,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4636672313578012, guid: 42546b551d54240f99da4bfbce727a46, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4636672313578012, guid: 42546b551d54240f99da4bfbce727a46, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -248,6 +263,35 @@ Prefab:
       propertyPath: doorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: playerDisplacement
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.64534545
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.473647
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.14182568
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.71634865
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
   m_IsPrefabParent: 0
@@ -288,7 +332,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4930693314631314, guid: ebbb710cfdb804cf28f0ac6f68f08676, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1282854685450598, guid: ebbb710cfdb804cf28f0ac6f68f08676, type: 2}
       propertyPath: m_Name
@@ -314,7 +358,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4429075829891290, guid: cdf08192f825a493fbf2aaed0c73d948, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 4429075829891290, guid: cdf08192f825a493fbf2aaed0c73d948, type: 2}
       propertyPath: m_LocalPosition.z
@@ -338,7 +382,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4429075829891290, guid: cdf08192f825a493fbf2aaed0c73d948, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdf08192f825a493fbf2aaed0c73d948, type: 2}
@@ -460,7 +504,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4636672313578012, guid: 42546b551d54240f99da4bfbce727a46, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1966239204140564, guid: 42546b551d54240f99da4bfbce727a46, type: 2}
       propertyPath: m_Name
@@ -506,11 +550,45 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_Name
       value: DoorwayTrigger (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: doorType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: playerDisplacement
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.64534545
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.427908
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.14404345
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.64773846
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
@@ -552,11 +630,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_Name
       value: DoorwayTrigger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
         type: 2}
@@ -565,13 +647,28 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
         type: 2}
-      propertyPath: gridSize.y
-      value: 10.8
+      propertyPath: playerDisplacement
+      value: 2.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114890372388866922, guid: e10bf8e328a654922b3949530ac0ba06,
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
         type: 2}
-      propertyPath: gridSize.x
-      value: 19.2
+      propertyPath: m_Offset.x
+      value: 0.651996
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.3452976
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.07800102
+      objectReference: {fileID: 0}
+    - target: {fileID: 61935772730407218, guid: e10bf8e328a654922b3949530ac0ba06,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.55486107
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
