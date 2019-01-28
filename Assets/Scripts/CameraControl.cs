@@ -39,6 +39,7 @@ public class CameraControl : MonoBehaviour
     {
       orthoSizeIndex++;
     }
+    Debug.Log("index = " + orthoSizeIndex);
   }
 }
 

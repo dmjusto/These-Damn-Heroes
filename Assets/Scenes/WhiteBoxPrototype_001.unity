@@ -164,6 +164,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &72597751 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1837158060133322, guid: cdf08192f825a493fbf2aaed0c73d948,
+    type: 2}
+  m_PrefabInternal: {fileID: 446127655}
+--- !u!114 &72597757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 72597751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f71d7f15a5b8433c89cb4b422eeae67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &164667808
 Prefab:
   m_ObjectHideFlags: 0
@@ -201,7 +217,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_Name
@@ -301,7 +317,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4429075829891290, guid: cdf08192f825a493fbf2aaed0c73d948, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdf08192f825a493fbf2aaed0c73d948, type: 2}
@@ -482,7 +498,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_Name
@@ -768,7 +784,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_Name
@@ -1036,7 +1052,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4879441053257028, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1359874612220884, guid: e10bf8e328a654922b3949530ac0ba06, type: 2}
       propertyPath: m_Name
